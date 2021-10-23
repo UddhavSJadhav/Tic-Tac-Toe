@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 102, 255) 0%,
+    rgb(98, 250, 230) 100%
+  );
+}
+
+.brand {
+  height: 20vh;
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  background-color: brown;
+  width: 350px;
+  height: 350px;
+  margin: auto auto auto auto;
+  border: 1px solid #000;
+}
+
+.xo-grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.xo-grid li {
+  background-color: tomato;
+  color: transparent;
+  border: 1px solid #000;
+}
+
+.xo-grid li div {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 255, 234);
+  margin: 8px auto auto auto;
+}
+
+.x-sym {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.x-sym .diagonal1 {
+  background-color: brown;
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  transform: rotate(45deg);
+  top: 32px;
+}
+
+.x-sym .diagonal2 {
+  background-color: brown;
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  transform: rotate(-45deg);
+  top: 32px;
+}
+
+.o-sym {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.o-sym .circle1 {
+  background-color: brown;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  border-radius: 50px;
+}
+
+.o-sym .circle2 {
+  background-color: rgb(0, 255, 234);
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  margin: 18px;
+  border-radius: 50px;
+}
+
+#opening-banner {
+  position: absolute;
+  top: 20%;
+  width: 100vw;
+  margin: auto;
+}
+
+#opening-banner div {
+  background-color: rgb(0, 0, 41);
+  color: #fff;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+#opening-banner button {
+  margin-top: 5px;
+  height: 50px;
+  aspect-ratio: 1;
+  font-size: 30px;
+}
+
+#result {
+  position: absolute;
+  top: 20%;
+  width: 100vw;
+  margin: auto;
+}
+
+#result div {
+  background-color: rgb(0, 0, 41);
+  color: #fff;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}

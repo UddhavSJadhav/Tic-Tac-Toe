@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--CSS-->
+    <link href="index.css" rel="stylesheet" />
+
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div class="brand">
+      <h1>Tic-Tac-Toe</h1>
+    </div>
+    <div class="main" style="display: none" id="main">
+      <ul class="xo-grid">
+        <li><div id="1" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="2" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="3" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="4" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="5" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="6" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="7" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="8" onclick="addXOsym(this.id)"></div></li>
+        <li><div id="9" onclick="addXOsym(this.id)"></div></li>
+      </ul>
+    </div>
+    <div id="opening-banner">
+      <div>
+        <h2>Rules</h2>
+        <p>
+          You know them, you played tic-tac-toe during your chemistry lectures
+        </p>
+        <p>Oh wait, that was me!</p>
+        <p>Here is one:</p>
+        <p>
+          First to play gets X (NO! The one you are thinking is Ex, totally
+          different)
+        </p>
+        <h4>Select:</h4>
+        <button onclick="setPlayer(true)">X</button>
+        <button onclick="setPlayer(false)">O</button>
+      </div>
+    </div>
+    <div id="result" style="display: none">
+      <div>
+        <h2>Result</h2>
+        <div id="declaration"></div>
+        <button onclick="playAgain()">Play Again!!!</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
