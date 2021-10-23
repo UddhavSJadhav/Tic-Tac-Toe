@@ -151,7 +151,7 @@ function compMove() {
   }
 
   //trick
-  if (isCompMove) {
+  /*if (isCompMove) {
     var losing = [
       [1, 9],
       [3, 7],
@@ -164,7 +164,7 @@ function compMove() {
         addToEdges(possibleMoves);
       }
     }
-  }
+  }*/
 
   //Go for Corners
   if (isCompMove) {
