@@ -109,12 +109,13 @@ h1 {
 }
 
 #opening-banner div {
-  background-color: rgb(0, 0, 41);
+  background-color: rgba(0, 0, 41, 0.521);
   color: #fff;
   max-width: 600px;
   text-align: center;
   padding: 20px;
   margin: auto;
+  border-radius: 20px;
 }
 
 #opening-banner button {
@@ -122,6 +123,13 @@ h1 {
   height: 50px;
   aspect-ratio: 1;
   font-size: 30px;
+  border-radius: 20px;
+  color: red;
+}
+
+#opening-banner button:hover {
+  background-color: blue;
+  color: #fff;
 }
 
 #result {
@@ -132,10 +140,25 @@ h1 {
 }
 
 #result div {
-  background-color: rgb(0, 0, 41);
+  background-color: rgba(0, 0, 41, 0.514);
   color: #fff;
   max-width: 600px;
   text-align: center;
   padding: 20px;
   margin: auto;
+  border-radius: 20px;
+}
+
+#result button {
+  background-color: rgb(0, 247, 255);
+  margin-top: 5px;
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#result button:hover {
+  background-color: rgb(0, 162, 255);
 }

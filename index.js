@@ -1,6 +1,5 @@
 let board = ["", "", "", "", "", "", "", "", "", ""];
-let compSym,
-  playerSym = "";
+let compSym, playerSym;
 let isCompMove = true,
   foundCompWinner = false;
 let counterComp = 0,
